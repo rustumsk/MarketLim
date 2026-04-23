@@ -44,6 +44,10 @@ coverage.*
 appsettings.Local.json
 appsettings.*.local.json
 secrets.json
+**/App_Data/*.db
+**/App_Data/*.db-*
+*.sqlite
+*.sqlite3
 
 # Logs and diagnostics
 *.log
